@@ -1,0 +1,20 @@
+{
+  "name": "__rulebook_file_lister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-service": "winser -i -a",
+    "uninstall-service": "winser -r -x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "2.0.4",
+    "serve-index": "^1.9.1",
+    "winser": "^1.0.3"
+  }
+}
